@@ -1,0 +1,153 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 250px; /* Adjust based on your preference */
+    background-color: #333; /* Dark background for the sidebar */
+    color: #fff; /* Light text color for contrast */
+    padding: 20px;
+    overflow-y: auto; /* Enables scrolling for the sidebar if content overflows */
+    position: fixed; /* Keeps the sidebar fixed on the side */
+    height: 100vh; /* Full viewport height */
+}
+
+.main-content {
+    margin-left: 350px; /* Offset the main content to the right of the sidebar */
+    flex-grow: 1; /* Allows the main content to fill the rest of the viewport width */
+    overflow-y: auto; /* Enables scrolling for the main content area */
+    padding: 20px; /* Adds some padding around the content */
+}
+
+/* Additional styling for navigation links */
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li a {
+    color: #fff; /* White text color for links */
+    text-decoration: none; /* Removes underline from links */
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline; /* Adds underline on hover */
+}
+
+.profile-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 0;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #333;
+}
+.education-entry h3 {
+    color: #4CAF50; /* Adjust the color to fit your theme */
+}
+
+.education-entry p, .education-entry ul {
+    margin-left: 20px;
+}
+
+.education-entry ul {
+    list-style-type: circle; /* Adds a nice bullet point style */
+}
+
+.education-entry a {
+    color: #3498db; /* A pleasant link color */
+    text-decoration: none; /* Removes underline from links */
+}
+
+.education-entry a:hover {
+    text-decoration: underline; /* Adds underline on hover for better link visibility */
+}
+.experience-entry h3 {
+    color: #3498db; /* Adjust the color to fit your theme */
+}
+
+.experience-entry p {
+    margin-left: 20px;
+    text-align: justify;
+}
+
+.experience-entry p strong {
+    color: #4CAF50; /* This highlights dates and references nicely */
+}
+
+.experience-entry a {
+    color: #3498db; /* Consistent link color */
+    text-decoration: none; /* Removes underline from links */
+}
+
+.experience-entry a:hover {
+    text-decoration: underline; /* Adds underline on hover for visibility */
+}
+.project-entry h3 {
+    color: #3498db; /* Adjust the color to fit your theme */
+}
+
+.project-entry p, .project-entry ul {
+    margin-left: 20px;
+}
+
+.project-entry ul {
+    list-style-type: square; /* Adds a unique bullet point style for projects */
+}
+
+.project-entry a {
+    color: #3498db; /* Ensures links stand out */
+    text-decoration: none; /* Keeps links clean */
+}
+
+.project-entry a:hover {
+    text-decoration: underline; /* Improves link visibility on hover */
+}
+.skills-category {
+    margin-bottom: 20px;
+}
+
+.skills-category h3 {
+    color: #3498db; /* This color can be adjusted to fit your CV's theme */
+}
+
+.skills-category p, .skills-category ul {
+    margin-left: 20px;
+    text-align: justify;
+}
+
+.skills-category ul {
+    list-style-type: disc; /* Or choose another style that fits your design */
+    padding-left: 20px; /* Adjust padding for proper indentation */
+}
